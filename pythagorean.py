@@ -10,7 +10,7 @@ print ("2. Side 2")
 print ("3. hypotenuse")
 
 #Choice function
-choice input(": ")
+choice = input(": ")
 
 if choice == 1;
     b = int(input("Insert the length of side 2: "))
