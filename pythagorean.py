@@ -1,10 +1,12 @@
 # Pythagorean Theorem a^2 + b^2 = h^2 , (where 'h' is the hypotenuse)
-#importing 'sys' and 'string' module from python
+
+#importing 'sys', 'time', and 'string' module from python
 import sys,string
 import time
 
-#First of all, print the question.
+#Using the while-loop to continuously run this program until meets sys.exit()
 while True:
+    #Question delcared
     print "Which side is unknown? "
 
     # Print choices for the question.
@@ -49,7 +51,3 @@ while True:
         sys.exit(0)
     else:
         print "Invalid Option. Please Try Again."
-
-#a = float(input("Insert the length of side 1: "))
-#b = float(input("Insert the length of side 2: "))
-#h = float(input("Insert the length of the hypotenuse: "))
